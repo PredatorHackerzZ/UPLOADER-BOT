@@ -58,13 +58,8 @@ async def start(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text="⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"),
-                                               InlineKeyboardButton(text="😇 Support", url="https://t.me/TeleRoid14") ],
-                                             [ InlineKeyboardButton(text="🆘 Help ", callback_data="help"),                                                
-                                               InlineKeyboardButton(text="👥 About ", callback_data="aboutbot") ],
-                                             [InlineKeyboardButton(text="😺 GitHub", url="https://GitHub.com/PredatorHackerzZ"),
-					       InlineKeyboardButton(text="💸 Donate", url="https://www.paypal.me/AbhishekKumarIN47") ],
-                                             [ InlineKeyboardButton(text="🔐 Close🔐", callback_data="close") ] ] ) )
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text="⭕ Channel ⭕", url="https://t.me/Moviesseriesnewchannel"),
+                                               InlineKeyboardButton(text="😇 Discussion Group", url="https://t.me/MoviesSeries_discussionGroup] ) )
 
 @Clinton.on_message(filters.private & filters.command("about") )
 async def about(bot, update):
@@ -79,7 +74,4 @@ async def about(bot, update):
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text="🚸 Powered By", url="https://t.me/TeleRoidGroup") ],
-                                             [ InlineKeyboardButton(text="🌀 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"),
-                                               InlineKeyboardButton(text="💢 Source Code", url="https://github.com/PredatorHackerzZ") ] ] ) )
-
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(
